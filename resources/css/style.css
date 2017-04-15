@@ -1,0 +1,242 @@
+/* Header */
+
+html {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  color: #4F4242;
+}
+
+header {
+  display: flex;
+  height: 64px;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+/* Logo */
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+  margin-left: 24px;
+  align-items: center;;
+}
+
+.logo-image {
+  height: 36px;
+}
+
+.logo-image img {
+  height: 42px;
+}
+
+.logo .ca-name {
+  display: flex;
+  align-items: center;
+}
+
+.logo .ca-name span:first-child {
+  font-weight: bold;
+  margin-right: 1.5px;
+  color: #3B3131;
+}
+
+/* Nav bar */
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #4F4242;
+}
+
+header nav span {
+  margin-right: 16px;
+}
+
+/* Banner */
+
+#banner {
+  display: flex;
+  background-color: lightgrey;
+}
+
+.banner-image {
+  width: 60%;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.banner-image img {
+  width: 100%;
+}
+
+.banner-text-container {
+  display: flex;
+  width: 25%;
+  align-items: center;
+  margin-left: 16px;
+}
+
+/*lstned short for learn something new everyday*/
+
+.lstned {
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+/* Banner's big text */
+
+.lstned h1 {
+  font-width: 700;
+  font-size: 2rem;
+  margin: 0px;
+}
+
+.start-button p {
+  padding: 8px 0px;
+  background-color: #4F4242;
+  position: relative;
+  border-radius: 3px;
+}
+
+.start-button a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.start-button a p:hover {
+  background-color: white;
+  color: black;
+  transition: .25s ease-out;
+}
+
+#information {
+  display: flex;
+}
+
+.information-image {
+  width: 60%;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.information-image h2 {
+  font-size: 2.5rem;
+  margin: 32px 0px;
+}
+
+.information-image img {
+  width: 100%;
+}
+
+.right-info-container {
+  border-left: lightgrey 1px solid;
+  width: 35%;
+}
+
+.information-image p:last-child {
+  font-family: 'Roboto';
+}
+
+.right-container {
+  display: flex;
+  margin-top: 16px;
+}
+
+.right-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-text-container p:first-child {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 0px;
+}
+
+.right-text-container p:nth-child(2) {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.right-text-container p:last-child {
+  margin-top: 0px;
+}
+
+.right-info-container div:hover {
+  background-color: lightgrey;
+}
+
+.right-container img {
+  width: 35%;
+  height: 35%;
+  padding: 16px;
+}
+
+.read-more a {
+  text-decoration: none;
+  color: #5B94DE;
+}
+
+.read-more a:hover {
+  color: blue;
+  transition: 200ms;
+}
+
+.start-learning-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgrey;
+  padding-bottom: 32px;
+}
+
+.start-learning-container h2 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-size: 2.5rem;
+}
+
+.course-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0px 160px;
+}
+
+.course {
+  background: white;
+  width: 30%;
+  margin: 16px;
+}
+
+.course:hover {
+
+}
+
+.course img {
+  width: 100%;
+}
+
+.course p {
+  padding: 0px 16px;
+}
+
+.course p:nth-child(2) {
+  font-weight: bold;
+}
+
+/* Mobile Phone Size */
+  @media only screen and (max-width: 470px) {
+    }
+px
