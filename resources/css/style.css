@@ -6,9 +6,14 @@ html {
   color: #4F4242;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 header {
   display: flex;
-  height: 64px;
+  height: 4rem;
   width: 100%;
   font-size: 1.2rem;
 }
@@ -18,16 +23,16 @@ header {
 .logo {
   display: flex;
   flex-grow: 1;
-  margin-left: 24px;
-  align-items: center;;
+  margin-left: 1.5rem;
+  align-items: center;
 }
 
 .logo-image {
-  height: 36px;
+  height: 2rem;
 }
 
 .logo-image img {
-  height: 42px;
+  height: 2.6rem;
 }
 
 .logo .ca-name {
@@ -54,7 +59,7 @@ header nav a {
 }
 
 header nav span {
-  margin-right: 16px;
+  margin-right: 1rem;
 }
 
 /* Banner */
@@ -66,10 +71,10 @@ header nav span {
 
 .banner-image {
   width: 60%;
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .banner-image img {
@@ -80,7 +85,7 @@ header nav span {
   display: flex;
   width: 25%;
   align-items: center;
-  margin-left: 16px;
+  margin-left: 1rem;
 }
 
 /*lstned short for learn something new everyday*/
@@ -99,7 +104,7 @@ header nav span {
 }
 
 .start-button p {
-  padding: 8px 0px;
+  padding: 0.5rem 0px;
   background-color: #4F4242;
   position: relative;
   border-radius: 3px;
@@ -119,19 +124,20 @@ header nav span {
 
 #information {
   display: flex;
+  background-color: #E9E9F2;
 }
 
 .information-image {
   width: 60%;
-  margin-left: 24px;
-  margin-right: 24px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .information-image h2 {
   font-size: 2.5rem;
-  margin: 32px 0px;
+  margin: 2rem 0px;
 }
 
 .information-image img {
@@ -141,6 +147,8 @@ header nav span {
 .right-info-container {
   border-left: lightgrey 1px solid;
   width: 35%;
+  position: relative;
+  top: 1rem;
 }
 
 .information-image p:last-child {
@@ -149,7 +157,7 @@ header nav span {
 
 .right-container {
   display: flex;
-  margin-top: 16px;
+  margin-top: 1rem;
 }
 
 .right-text-container {
@@ -165,22 +173,23 @@ header nav span {
 }
 
 .right-text-container p:nth-child(2) {
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .right-text-container p:last-child {
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
-.right-info-container div:hover {
+.right-info-container div:hover,
+.right-exhibit-container div:hover {
   background-color: lightgrey;
 }
 
 .right-container img {
   width: 35%;
-  height: 35%;
-  padding: 16px;
+  height: 10.5rem;
+  padding: 1rem;
 }
 
 .read-more a {
@@ -198,12 +207,12 @@ header nav span {
   flex-direction: column;
   align-items: center;
   background-color: lightgrey;
-  padding-bottom: 32px;
+  padding-bottom: 2rem;
 }
 
 .start-learning-container h2 {
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   font-size: 2.5rem;
 }
 
@@ -211,17 +220,17 @@ header nav span {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 0px 160px;
+  padding: 0px 10rem;
 }
 
 .course {
   background: white;
   width: 30%;
-  margin: 16px;
+  margin: 1rem;
 }
 
 .course:hover {
-
+  font-weight: bold;
 }
 
 .course img {
@@ -229,13 +238,66 @@ header nav span {
 }
 
 .course p {
-  padding: 0px 16px;
+  padding: 0px 1rem;
 }
 
 .course p:nth-child(2) {
   font-weight: bold;
 }
 
+#exhibit {
+  background-color: #E9E9F2;
+}
+
+#exhibit h2 {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 0px;
+  font-size: 2.5rem;
+}
+
+.exhibit-container {
+  display: flex;
+}
+
+.exhibit-sub-container {
+  width: 60%;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+}
+
+.right-exhibit-container {
+  width: 35%;
+  position: relative;
+  top: 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #E9E9F2;
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
+  font-size: 0.8rem;
+  border-top: lightgrey solid 1px;
+}
+
+.right-footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.right-footer p {
+  margin-right: 2rem;
+}
 /* Mobile Phone Size */
   @media only screen and (max-width: 470px) {
     }
