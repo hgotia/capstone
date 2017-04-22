@@ -110,7 +110,6 @@ header nav span {
 /* Banner's big text */
 
 .lstned h1 {
-  font-width: 700;
   font-size: 2rem;
   margin: 0px;
 }
@@ -235,7 +234,7 @@ header nav span {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  padding: 0px 10rem;
+  padding: 0px 5rem;
 }
 
 .course {
@@ -245,7 +244,6 @@ header nav span {
 }
 
 .course:hover {
-kiss
 }
 
 .course img {
